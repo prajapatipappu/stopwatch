@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- this title  name "Stopwatch" will display on the new tab of the windows when it will run on chrome any search engine.    -->
+        <title>Stopwatch</title> 
+
+        <!-- to  link css file "style.css" will modifies the html pages.  -->
+        <link  rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <!--  for container box -->
+        <div class="box"> 
+
+            <!-- this is the heading of the Stopwatch  -->
+            <h2 class="heading">Stopwatch</h2>
+
+            <!-- this id  is for the stopwatch formate of hours , minutes and Seconds  -->
+            <h1 id="clock"> 00 : 00 : 00 </h1>
+
+            <!-- create a three button for Start , Stop and Reset  -->
+            <button onclick="start()" style="background-color: green;">Start</button>
+            <button onclick="stop()" style="background-color: red;">Stop</button>
+            <button onclick="reset()" style="background-color: blue;">Reset</button>  
+        </div>
+
+        <!-- to add/ linked  this script files - "script.js"  to make the html pages  functional or  in proper  ways working  -->
+        <script src="script.js"></script>
+    </body>
+</html>

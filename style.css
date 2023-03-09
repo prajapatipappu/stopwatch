@@ -1,0 +1,73 @@
+*
+{
+    /* this is the by default values of the box  */
+    margin: 0px;
+    padding: 0px;
+   
+    font-family: cursive;   /* it is a font family name  which is of basic five types - serif, sans serif, cursive, fantasy, and monospace.. */
+    
+    box-sizing: border-box;  /* it  Specifies the behavior of the 'width' and 'height' properties. */
+}
+
+body
+{
+   
+    background-color: rgb(91, 66, 12);  /* this is the background color of the body  */
+
+    width: 100%;   /* it Specifies the width of the content area, padding area or border area depending on 'box-sizing' of certain boxes */
+    height: 100vh;  /* it Specifies the height of the content area, padding area or border area depending on 'box-sizing' of certain boxes */
+    
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;  /* align item is used to keep the text horizontally and vertically */
+    
+}
+
+/* container box */
+.box
+{
+    background-color: white;  /* this is the background color of the box  */
+    
+    height: fit-content; /* it Specifies the height of the content area, padding area or border area depending on 'box-sizing' of certain boxes. */
+    
+    width: fit-content; /* it Specifies the width of the content area, padding area or border area depending on 'box-sizing' of certain boxes. */
+    
+    padding: 50px; /* this shows the property of the thickness of the padding area from left to right as same  and top to bottom as same  */
+    
+    border-radius: 60px 60px 60px 60px; /* it shows the radii of the outer border edge of the box. */
+    
+    box-shadow: 5px 5px 10px 10px rgb(0, 128, 34); /* this Attaches one or more drop-shadows to the box.  */
+}
+
+/* for heading  */
+.heading
+{
+    /* this is for the heading inside the box for the text  "stopwatch" and coloured used and the position of the text is in centre of the box */
+    color: rgb(255, 164, 17);
+    text-align: center ;
+    
+}
+
+h1
+{
+    /* this font size is used to Indicates the desired height  of the box  accourding to  given px values .  */
+    font-size: 50px;
+
+}
+
+/* for button  */
+button
+{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 15px;
+    
+    color: white; /* it  Sets the color of an element's text */
+   
+    cursor: pointer;  /* while  moving cursore in on element it indicates pointer on the button */
+    
+}

@@ -1,0 +1,36 @@
+                                  -:-    Project Title -   StopWatch    =:=
+
+This project is made on using the HTML , CSS AND  VANILLA JAVA-SCRIPT.
+This is a simple and basic project on html ,css and javascript, in the index.html file ,in  the head  section you can see there is a title written - "StopWatch" which will display in tab when is will run in browser. 
+style.css is linked , which is written in the header section of the index.html file .
+
+After that, there is a  body section in which heading - name is written as " StopWatch".
+After that there is id - formate of StopWatch is written in Hours , Minutes and Seconds (00 : 00 : 00).
+
+After that there is a three buttons :-  1. Start button - It will start the timer.
+                                        2. Stop button  - It will stop the timer.
+                                        3. Reset button - It will reset the timer to zero.
+
+After that, script.js file is linked in the index,html file to make it in proper working or functional. 
+
+After that i have created "style.css" file, which will modifies ,styles all the html pages on ours wishes.
+
+After that i have created "script.js" files, in which i have written all those code which will manipulates with index.html file to make its functional.
+
+Points to be noted:- 
+     1. created three function (Start, Stop and Reset).
+                 And writen all possible  conditions of all the three functions. 
+     2. created  var name - IsStop = true,- which behaves like a flag- acts as a boolean no.(0,1) while timer is Start or Stop.
+        created  var name hours = 0;
+        created  var name Minutes = 0;
+        created  var name seconds = 0;
+        
+     3. create a function of "timer",- which inculdes the all the conditions of the hours, Minutes and seconds .
+
+After that i have written all the possible conditions which is required to make the StopWatch functional or in proper working.
+
+-----> For the more information about the project, refer to the  code section of the index.html, style.css and  script.js .
+
+                                              -:-    THANK YOU    -:-
+                            
+
